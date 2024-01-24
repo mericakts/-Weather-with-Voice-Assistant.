@@ -1,0 +1,98 @@
+*{ margin : 0 ;
+   padding: 0;
+   box-sizing: border-box;}
+
+   body{
+
+    font-family: 'montserrat', 'sans-serif';
+    color: white;
+    background-image: url(hava-durumu.jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh
+
+   }
+
+   .app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    height: 100vh;
+
+   }
+
+   .header{
+    padding: 50px 20px 30px 20px;
+
+   }
+
+   .header h1{
+    font-size: 50px;
+    color: rgb(247, 169, 25);
+    text-shadow: 1px 3px rgba(0,0,0,.9);
+   }
+
+   .header input{
+    width:100% ;
+    padding: 10px;
+    background-color: transparent;
+    border: 0;
+    outline: o;
+    border-bottom: 2px solid  rgb(247, 169, 25);
+    text-align: center;
+    font-size: 18px;
+    color: beige;
+
+
+}
+
+.city{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.7);
+}
+
+  .temp{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 5px rgba(0,0,0,.8);
+  }
+
+  .desc{
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+    margin-bottom: 10px;
+}
+
+.minmax{
+    font-size: 24px;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+}
+
+#speechButton {
+    padding: 10px 20px;
+    background-color: rgb(168, 112, 7);
+    color: white;
+    
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border-width: 2px;
+    border-color:#888127 ;
+    
+}
+
+#speechButton:hover {
+    
+    color: rgb(51, 50, 50);
+    
+  
+}
